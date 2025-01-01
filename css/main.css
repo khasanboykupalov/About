@@ -1,0 +1,441 @@
+
+
+/* Main section*/
+.main-banner{
+    background: url('../Images/main-banner.png') no-repeat top center;
+    background-position: center;
+    background-size: cover;
+    min-height: 890px;
+}
+.main-section{
+    padding: 6.25rem 1.89rem;
+}
+.main-section > div{
+    width: 50%;
+    float: left;
+}
+.main-section__image {
+    text-align: right;
+}
+.main-section__image img{
+    width: 65%;
+}
+.main-section__welcome{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+    letter-spacing: 2px;
+    color: #797979;
+}
+.main-section__intoduction {
+    margin-top: 1.25rem;
+    font-size: 3.75rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color:#05364E;
+    letter-spacing: 2px;
+
+}
+.main-section__position{
+    color: #05364E;
+    font-size: 1.5rem;
+    font-weight:400;
+    margin-bottom: 1.25rem ;
+
+}
+ .main-section_socal-networks a{
+  color: #8FA1AA;
+  font-size: 1.25rem;
+  display: inline-block;
+  margin-right: 1rem;
+  cursor: pointer;
+ }
+ .main-section_socal-networks a:hover i{
+    color:#8FA1AA ;
+ }
+.main-section__action{
+    margin-top: 1.87rem;
+    
+}
+/*statistics section*/
+.statistics {
+    padding-top: 9.37rem;
+}
+.statistics__item{
+    display: inline-block;
+    background-color:#F8FAFF;
+    text-align: center;
+    padding: 0.31rem 0.625rem;
+    margin-right: 1.25rem ;
+    width: 150px;
+}
+ .statistics_number{
+    font-size: 1.25rem;
+    margin-bottom: 0.31rem;
+    -webkit-background-color:#021017;
+    -webkit-text-fill-color:#05364E;
+}
+
+ .statistics__title{
+    font-size: 1px;
+    color:#797979;
+
+ }
+ /* Aboyt me section*/
+ .about-me{
+    padding: 6.25rem 0;
+ }
+
+ .about-me > div {
+    width: 50%;
+    float: left;
+ }
+.about-me__image img{
+    width: 90%;
+}
+
+.about-me__description{
+    font-size: 1.02rem;
+    font: weight 400px;
+    color: #797979;
+    line-height: 1.31rem;
+}
+.about-me__action{
+    margin-top: 2,5rem;
+}
+
+/*Services section styles*/
+.services{
+    padding-top: 6.25rem ;
+}
+.servis-cards{
+    padding-top: 6.25rem;
+}
+.servis-card{
+    display: inline-block;
+    width:30% ;
+    padding: 3.75rem 1.88rem;
+    background-color:#F8FAFF ;
+    margin-right: 3%;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 1s ease 0s;
+}
+.servis-card__title{
+    color:#05364d ;
+    font-size: 1.25rem;
+    font-weight:500 ;
+    margin-bottom: 1.2rem;
+    text-transform: uppercase;
+}
+.servis-card__description{
+    font-size: 0.87rem;
+    line-height: 1.38rem ;
+    font-weight: 300;
+    color: #797979;
+}
+.servis-card__link{
+    font-size: 0.81rem  ;
+    font: 500;
+    text-transform: uppercase;
+    color: #05364d;
+    text-decoration: none;
+}
+.servis-card:hover{
+    background-color: #5f30ff;
+}
+.servis-card:hover .servis-card__title,
+.servis-card:hover .servis-card__description,
+.servis-card:hover .servis-card__link {
+    color: #FFFFFF;
+}
+/*Clients section*/
+.clients{
+    padding-top: 6.25rem;
+}
+.clients-items{
+    padding-top: 4.37rem;
+}
+.clients-items > div{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.clients-item__image img{
+    width:100% ;
+}
+.clients-items__info{
+    padding-top: 3.75rem ;
+    padding-left: 4.37rem ;
+}
+.clients-items__name{
+    font-size: 1.25rem ;
+    margin-bottom: 0.25rem;   
+}
+.clients-items__position{
+    font-size: 0.87rem;
+    font-weight: 400px; 
+    color: #5b6d75;
+}
+.clients-items__review {
+    font-size: 0.87rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    color: #5b6d75;
+}
+.clients-item__rate{
+    color: #FFD805;
+}
+
+.disable{
+    color: #797979;
+}
+/*Portfolio section*/
+.portfolio{
+    padding-top: 6,25rem 0px;
+}
+.portfolio-filters{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 3.125rem;
+}
+.portfolio-filters li{
+    display: inline-block;
+    padding-left: 3px;
+    margin-right: 2.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.portfolio-filters li:hover{
+    color: #1C44E4;
+}
+.portfolio-filters li.active {
+    color:#1C44E4;
+}
+.portfolio-items{
+    position: relative;
+    margin-top: 3.125rem;
+}
+.portfolio-item{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 50%;
+    padding: 0.625rem ;
+    box-sizing:border-box;
+}
+.portfolio-item_1{
+    padding-left: 3px;
+}
+.portfolio-image__1{
+    width: 100%;
+}
+.portfolio-item-2{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.portfolio-item-3{
+    position: absolute;
+    margin-top: 0.625rem;
+    top: 314px;;
+    right: 0;
+}
+.portfolio-item__overlay{
+    position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.portfolio-item__info{
+    position: absolute;
+    bottom:44px;
+    left: 80px;
+    color: aliceblue;
+    visibility: hidden;
+    opacity:0;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.portfolio-item__info a{
+    color: #F8FAFF;
+    text-decoration: none;
+}
+.portfolio-item:hover .portfolio-item__overlay{
+    background-color: rgba(19,69,230,0.9);
+    visibility: visible;
+    top: 20px;
+    left: 20px;
+
+}
+.portfolio-item:hover .portfolio-item__info{
+    visibility: visible;
+    bottom: 24px;
+    left: 60px;
+    opacity:1 ;
+}
+/*Bolg section*/
+.blog{
+    padding-top: 4.69rem
+}
+.blog-items{
+    margin-top: 3.75rem;
+}
+.blog-item{
+    display: inline-block;
+    width: 31%;
+    margin-right:2%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.blog-item:hover{
+    box-shadow: 0px 10px 20px rgb(5 54 77 / 30%);
+}
+.blog-item:hover .blog-item__info{
+    background-color:white ;
+}
+.blog-item_1{
+    overflow: hidden;
+}
+.blog-item_1 img{
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.5s ease 0s;
+}
+.blog-item:hover .blog-item_1 img{ 
+    transform: scale(1.1) ;
+}
+.blog-item__info{
+    background-color: #F8FAFF;
+    padding: 1.87rem;
+    color:#797979 ;
+}
+.blog-item__main-info span{
+    font-size: 0.87rem ;
+    margin-right: 1.875rem;
+    font-weight: lighter;
+}
+.blog-item__info i{
+    margin-right: 3.1rem;
+}
+.blog-item__title{
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 15px;
+    color:#05364d;
+    font-weight: 700;
+}
+.blog-item__description{
+    line-height: 1.69rem;
+    font-weight:lighter;
+    font-size: 15px;
+}
+.blog-item__learn-more{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+    cursor: pointer;
+}
+.blog-item__learn-more:hover{
+    color: #ed239f;
+}
+/*Partnors section*/
+.partners{
+    padding-top: 6.25rem;
+    margin-bottom: 69px;
+
+}
+.partner{
+    display: inline-block;
+    padding: 0 1.875rem;
+}
+@media only screen and (max-width: 767px){
+    /* Main section*/
+    .main-banner{
+        background: none;
+        min-height: auto;
+    }
+    .main-section__image{
+        display: none;
+    }
+    .main-section__action{
+        display: none;
+    }
+    .main-section > div{
+        width: 100%;
+    }
+    /* Statistics section*/
+    .statistics__item{
+        width: 98%;
+        margin-bottom: 15px;
+    }
+     
+    /*Aboutme section */
+    .about-me {
+        padding: 1.5 rem;
+    }
+    .about-me > div{
+       width: 99%; 
+    }
+    .about-me__image img {
+        display: none;
+    }
+    /*servises card */
+    .services{
+        padding: 1.5rem;
+    }
+    .servis-card{
+        width: 99%;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    /*Clintes*/
+    .clients{
+        padding: 1.5rem;
+    }
+       .clients-items > div{
+        width: 100%;
+        float: none;
+       }
+       /*Portfoli secton*/
+    .portfolio{
+        padding: 1.5rem;
+    }
+
+       .portfolio-item {
+       width: 99%;
+    }
+        .portfolio-item_1, 
+        .portfolio-item-2, 
+        .portfolio-item-3{
+            position: static;
+        }
+    /*Blog section*/
+    .blog{
+        padding: 1.5rem 0;
+    }
+    .blog-item{
+        width: 99%;
+        margin-right: 0;
+        margin-bottom: 21px;
+    }
+    /*Partners section*/
+    .partners{
+        padding: 1.5rem 0;
+
+    }
+    .partner{
+        display: block;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 11px;
+    }
+        
+}
